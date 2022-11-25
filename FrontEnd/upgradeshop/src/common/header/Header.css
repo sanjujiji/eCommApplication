@@ -1,0 +1,40 @@
+/*This is being built as part of Capstone project.
+Header.css contains all the styling with respect to Header component
+Created By : Sanju Jiji
+*/
+
+#login {
+    color           : white;
+    font-size       : 12;
+    text-decoration : underline;
+    text-transform  : capitalize;
+}
+
+#appBar {
+    background-color: #3f51b5;
+}
+
+#home , #addProduct {
+    color           : white;
+    font-size       : 12;
+    text-decoration : underline;
+    text-transform  : capitalize;
+}
+
+#signUp {
+    color           : white;
+    font-size       : 12;
+    text-decoration : underline;
+    text-transform  : capitalize;
+}
+
+#logout{
+    background-color: red;
+    color           : white;
+}
+
+.leftMost{
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}

@@ -1,0 +1,39 @@
+/*This is being built as part of Capstone project.
+Login.css contains all the styling with respect to the Login component
+Created By : Sanju Jiji
+*/
+
+.login {
+    width       : 100vw;
+    position    : absolute;
+    text-align  : center;
+    top         : 30%;   
+}
+
+#signInLabel{
+    color       : black;
+    font-weight : bold;
+    font-size   : x-large;
+}
+
+#signUpLink{
+    font-size   : small;
+    text-align  : left;
+}
+
+#footer{
+    width       : 100vw;
+    position    : absolute;
+    bottom      : 15%;
+    text-align  : center;
+    font-size   : small;
+}
+
+#errorMsg{
+    color       : red;
+    font-weight : bolder;
+}
+
+#colorSpecs{
+    background-color: #3f51b5;
+}

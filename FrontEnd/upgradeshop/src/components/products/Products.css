@@ -1,0 +1,92 @@
+/*This is being built as part of Capstone project.
+Products.css contains all the styling with respect to the Products component
+Created By : Sanju Jiji
+*/
+
+body {
+    overflow-x      : hidden; /* Hide horizontal scrollbar */
+    margin-bottom   : 2%;
+  }
+
+
+#toggle {
+    width       : 100vw;
+    position    : absolute; 
+    text-align  : center;
+}
+
+.select {
+    margin-left : 2%;
+    font-size   : 12px;
+}
+
+.prodDisplay{
+    margin-left  : 5%;
+}
+
+#prodTitle,#firstPart{
+    display         : flex;
+    justify-content : space-between;
+}
+
+.cardFooter{
+    width           : 350;
+    display         : flex;
+    justify-content : space-between;
+    vertical-align  : bottom;
+    margin-bottom   : 4%;
+}
+
+#adminButtons{
+    display         : flex;
+    justify-content : end;
+}
+
+#commonButton{
+    display         : flex;
+    justify-content : start;
+    margin-left     : 5%;
+}
+
+.cardBody{
+    width           : 350;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-between;
+}
+
+.content{
+    display         : block;
+    width           : 350;
+    overflow        : auto;
+    height          : 9em;
+}
+
+#hiddenProdId{
+    visibility      : visible;
+}
+
+.modify {
+    width           : 100vw;
+    position        : absolute; 
+    text-align      : center;
+}
+
+#modifyLabel{
+    font-weight     : bolder;
+    font-size       : larger;
+}
+
+#image{
+    text-align      : center;
+    width           : 250;
+    height          : 175;
+}
+
+.MuiTextField-root p {
+    color           :blue
+}
+
+#colorSpecs{
+    background-color: #3f51b5;
+}

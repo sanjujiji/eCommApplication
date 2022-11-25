@@ -1,0 +1,43 @@
+/*This is being built as part of Capstone project.
+Signup.css contains all the styling with respect to the Signup component
+Created By : Sanju Jiji
+*/
+
+.signup{
+    width       : 100vw;
+    position    : absolute; 
+    text-align  : center;
+}
+
+#signInLabel{
+    color       : black;
+    font-weight : bold;
+    font-size   : x-large;
+}
+
+#signInLink{
+    font-size   : small;
+    text-align  : right;
+}
+
+#footer{
+    width       : 100vw;
+    position    : absolute;
+    bottom      : 1%;
+    text-align  : center;
+    font-size   : small;
+}
+
+#errorMsg{
+    color       : red;
+    font-weight : bolder;
+}
+
+#successMsg{
+    color       : green;
+    font-weight : bolder;
+}
+
+#colorSpecs{
+    background-color: #3f51b5;
+}

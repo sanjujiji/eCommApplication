@@ -1,0 +1,46 @@
+/*This is being built as part of Capstone project.
+Order.css contains all the styling with respect to the Order component
+Created By : Sanju Jiji
+*/
+#stepper{
+    margin          : 5%;
+    margin-bottom   : 1%;
+}
+
+.gridMui{
+    margin-left     : 14%;
+    margin-bottom   : 0%;
+}
+
+.select{
+    position        : absolute;
+    align-items     : center;
+}
+
+.outerDiv {
+    display         : block;
+    text-align      : center;
+}
+
+.innerDiv{
+    display         : block;
+}
+
+#addressSelect{
+    text-align      : left;
+}
+
+.selectAddr{
+    text-align      : left;
+
+}
+
+#addAddress{
+    font-weight     : bolder;
+    font-size       : large;
+}
+
+#errorMsgDiv{
+    display         : flex;
+    justify-content : center;
+}
